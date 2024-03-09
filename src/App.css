@@ -41,23 +41,23 @@ code {
   height: 91vh;
   width: 200px;
   z-index: 1;
-  background-image: url("./images/gif-animations-replace-loading-screen-12.gif") , url("./images/pow.png");
+  background-image: url("./images/gif-animations-replace-loading-screen-12.gif"), url("./images/pow.png");
   background-size: contain;
   background-repeat: no-repeat;
   /* background-position-y: top; */
   background-position: top;
   overflow-x: hidden;
   margin-top: 0px;
-} 
+}
 
 .sidenav-left {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: 0; 
+  left: 0;
 }
 
 .sidenav-right {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 0;
 }
@@ -74,14 +74,14 @@ code {
   top: 0;
 } */
 
- .page-img {
-  height: 836px;
+.page-img {
+  height: 1000px;
   background-image: url("./src/images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-} 
+}
 
-ul#links{
+ul#links {
   font-size: 1.3em;
   font-weight: 700;
   margin: 0 0 5px;
@@ -89,22 +89,23 @@ ul#links{
   text-align: right;
 }
 
-ul#links li{
-   display: inline;
-   list-style: none;
-   padding-left: 1px;
+ul#links li {
+  display: inline;
+  list-style: none;
+  padding-left: 1px;
 }
 
-ul#links li a{
+ul#links li a {
   background: none;
   color: #dd0909;
   text-decoration: none;
 }
 
-ul#links li a:hover{
+ul#links li a:hover {
   color: #1dfa00;
   text-decoration: none;
 }
-ul#links li a.active{
-  color:#f6f200;
+
+ul#links li a.active {
+  color: #f6f200;
 }
