@@ -22,7 +22,7 @@ code {
   display: flex;
   justify-content: space-between;
   background: #352275;
-  height: 108px;
+  height: 83px;
   /* padding: 15px 20px; */
 }
 
@@ -32,20 +32,20 @@ code {
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  margin: 20px 20px;
-  font-size: 1.2rem;
+  margin: 25px 10px;
+  font-size: 1.4rem;
   color: white;
 }
 
 .sidenav {
-  height: 90vh;
+  height: 91vh;
   width: 200px;
   z-index: 1;
-  background-image: url("./images/pow.png"), url("./images/gif-animations-replace-loading-screen-12.gif");
+  background-image: url("./images/gif-animations-replace-loading-screen-12.gif") , url("./images/pow.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position: bottom center, top right, top left;
+  /* background-position-y: top; */
+  background-position: top;
   overflow-x: hidden;
   margin-top: 0px;
 } 
@@ -75,8 +75,36 @@ code {
 } */
 
  .page-img {
-   height: 966px;
+  height: 836px;
   background-image: url("./src/images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 } 
+
+ul#links{
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0 0 5px;
+  padding: 0;
+  text-align: right;
+}
+
+ul#links li{
+   display: inline;
+   list-style: none;
+   padding-left: 1px;
+}
+
+ul#links li a{
+  background: none;
+  color: #dd0909;
+  text-decoration: none;
+}
+
+ul#links li a:hover{
+  color: #1dfa00;
+  text-decoration: none;
+}
+ul#links li a.active{
+  color:#f6f200;
+}
