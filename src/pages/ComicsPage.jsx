@@ -1,4 +1,7 @@
 import { useState } from "react"
+import { EXPRESS_APP } from "../sevices/EXPRESS_APP"
+import { Link } from "react-router-dom"
+
 
 import axios from 'axios'
 
@@ -10,10 +13,10 @@ const ComicsPage = () => {
   const findSeries = (e) => {
     e.preventDefault()
 
-    axios.get(`https://gateway.marvel.com:443/v1/public/series?title=${seriesInput}&contains=comic&orderBy=title&apikey=68dc792e94e7280b93993a62a39a7181`)
+    axios.get(`${EXPRESS_APP}/series/${seriesInput}`)
       .then((response) => {
         console.log("Found series ====>", response.data)
-        setFoundSeries(response.data.results)
+        setFoundSeries(response.data)
       })
       .catch((err) => {
         console.log(err)
@@ -40,14 +43,17 @@ const ComicsPage = () => {
           {foundSeries.map((series) => {
             return (
               <div>
-                <h3>{series.name}</h3>
-                <img src={`${series.thumbnail.path}.${series.thumbnail.extension}`} alt="series-image"/>
+                <h3>{series.title}</h3>
+                <img src={`${series.thumbnail.path}.${series.thumbnail.extension}`} style={{height: "10vh"}} alt="series-image"/>
+                <Link to={`/series-details/${series.id}`}>See series details</Link>
               </div>
             )
           })}
         
         </>
       }
+
+      <a href="http://marvel.com">Data provided by Marvel. © 2024 MARVEL</a>
 
     </div>
   )

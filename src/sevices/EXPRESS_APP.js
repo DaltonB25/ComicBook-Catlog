@@ -1,0 +1,1 @@
+export const EXPRESS_APP = 'http://localhost:4000'
