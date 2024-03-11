@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"; // Use NavLink for active styling
+import { NavLink } from "react-router-dom"; 
 
 function Navbar() {
   return (
