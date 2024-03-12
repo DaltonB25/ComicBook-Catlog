@@ -1,0 +1,623 @@
+[
+    {
+      "Name": "Black Panther",
+      "Title": "Jungle Action",
+      "Issue #": 16,
+      "Date": "July",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "DareDevil",
+      "Title": "The Man Without Fear",
+      "Issue #": 115,
+      "Date": "November",
+      "Year": null,
+      "# of Issues": 2,
+      "Price": ""
+    },
+    {
+      "Name": "DareDevil",
+      "Title": "The Man Without Fear",
+      "Issue #": 118,
+      "Date": "Feburary",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "DareDevil",
+      "Title": "The Man Without Fear",
+      "Issue #": 134,
+      "Date": "June",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Fantasic Four",
+      "Title": "The Madness of The Mole Man",
+      "Issue #": 84,
+      "Date": "August",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Fantasic Four",
+      "Title": "",
+      "Issue #": 168,
+      "Date": "March",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Fantasic Four",
+      "Title": "To Love, Honor, and Destroy",
+      "Issue #": 149,
+      "Date": "August",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Incredible Hulk",
+      "Title": "Battles The Power of Warlock",
+      "Issue #": 177,
+      "Date": "July",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Hulk and Sub-Mariner",
+      "Title": "Man into Monster!",
+      "Issue #": 47,
+      "Date": "November",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Hulk and Sub-Mariner",
+      "Title": "He Who Strikes The Silver Surfer",
+      "Issue #": 48,
+      "Date": "Janurary",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Incredible Hulk",
+      "Title": "Ten Rings Hath the Mandarin",
+      "Issue #": 61,
+      "Date": "November",
+      "Year": 1976,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Invicible Iron Man",
+      "Title": "",
+      "Issue #": 65,
+      "Date": "December",
+      "Year": 1973,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Invicible Iron Man",
+      "Title": "Now Comes the Green Goliath",
+      "Issue #": 76,
+      "Date": "July",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Ghost Rider",
+      "Title": "Battles The Ever-Incredible Hulk",
+      "Issue #": 10,
+      "Date": "Feburary",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Iron Fist",
+      "Title": "Martial Arts Mayhem",
+      "Issue #": 18,
+      "Date": "October",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Luke Cage, Power Man",
+      "Title": "Battles Power Man!",
+      "Issue #": 21,
+      "Date": "October",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Avengers",
+      "Title": "Bewitched, Bothered--And Dead!",
+      "Issue #": 128,
+      "Date": "October",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Avengers",
+      "Title": "",
+      "Issue #": 137,
+      "Date": "July",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Avengers",
+      "Title": "And in This Corner Goliath",
+      "Issue #": 24,
+      "Date": "October",
+      "Year": 1980,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Defenders",
+      "Title": "Super Team vs Super Team",
+      "Issue #": 13,
+      "Date": "May",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Giant-Size Defenders",
+      "Title": "From Hell it Came-to Seek out the Son of Satan",
+      "Issue #": 2,
+      "Date": "October",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Defenders",
+      "Title": "Magneto! The Brotherhood of Evil Mutants",
+      "Issue #": 16,
+      "Date": "October",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Defenders",
+      "Title": "On A Rampage!",
+      "Issue #": 18,
+      "Date": "December",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Defenders",
+      "Title": "Three Stand Beside Them!",
+      "Issue #": 25,
+      "Date": "July",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Mighty Thor",
+      "Title": "Battles the Being Called Firelord!",
+      "Issue #": 232,
+      "Date": "Feburary",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Thing and DareDevil",
+      "Title": "Marvel Two-In-One",
+      "Issue #": 3,
+      "Date": "May",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Capture of the Sub-Mariner",
+      "Title": "",
+      "Issue #": 32,
+      "Date": "December",
+      "Year": 1970,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Amazing Spider-Man",
+      "Title": "The Mark of the Man-Wolf",
+      "Issue #": 124,
+      "Date": "September",
+      "Year": 1973,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Amazing Spider-Man",
+      "Title": "The Kangaroo Bounces Back",
+      "Issue #": 126,
+      "Date": "November",
+      "Year": 1973,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Marvel Tales Starring Spider-Man",
+      "Title": "Crush The KingPin!",
+      "Issue #": 52,
+      "Date": "August",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Spidey Super Stories",
+      "Title": "Marvel Comics and The Electric Company",
+      "Issue #": 1,
+      "Date": "October",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Marvel Tales Starring Spider-Man",
+      "Title": "The Fantasic Secret of the Petrified Tablet",
+      "Issue #": 55,
+      "Date": "November",
+      "Year": 1974,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Amazing Spider-Man",
+      "Title": "Mysterio is Back..and This Time He's Not Alone!",
+      "Issue #": 141,
+      "Date": "Feburary",
+      "Year": 1975,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Spidey Super Stories",
+      "Title": "Marvel Comics and The Electric Company",
+      "Issue #": 17,
+      "Date": "July",
+      "Year": 1976,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Spider-Man Interactive Comic Book",
+      "Title": "Hunted by The HobGoblin",
+      "Issue #": null,
+      "Date": "Janurary",
+      "Year": 1996,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Spider-Woman",
+      "Title": "WereWolf by Night… He's a Real Monster",
+      "Issue #": 32,
+      "Date": "November",
+      "Year": 1980,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Invaders",
+      "Title": "The Read Skull! He's Back From the Daed!",
+      "Issue #": 5,
+      "Date": "March",
+      "Year": 1976,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Incredible Hulk",
+      "Title": "VS Man-Thing!",
+      "Issue #": 197,
+      "Date": "March",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Night Rider",
+      "Title": "Six-Guns and the Supernatural!",
+      "Issue #": 1,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "SGT. Fury and his Howling Commandos",
+      "Title": "D-Day for Dum Dum",
+      "Issue #": 59,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Chamber of Chills ",
+      "Title": "The Mansion of Missing Persons!",
+      "Issue #": 13,
+      "Date": "November ",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Werewolf by Night",
+      "Title": "War of the Wererwolves!",
+      "Issue #": 18,
+      "Date": "June",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Where Monsters Dwell",
+      "Title": "The man in the Beehive!",
+      "Issue #": 34,
+      "Date": "March",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Man-Thing ",
+      "Title": "Nobody Dies Forever",
+      "Issue #": 10,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Two-Gun Kid",
+      "Title": "The Rip- Snortin' origin of the Two-Gun Kid!",
+      "Issue #": 120,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Kid Colt ",
+      "Title": "You're a Coward Kid Colt!",
+      "Issue #": 120,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Werewolf by Night",
+      "Title": "The Monster Breaks Free",
+      "Issue #": 20,
+      "Date": "August",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Morbius The Living Vampire",
+      "Title": "Blade, The Vampire Slayer?",
+      "Issue #": 24,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Morbius The Living Vampire",
+      "Title": "Curse of the Cat Demon",
+      "Issue #": 22,
+      "Date": "June",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Shang-Chi",
+      "Title": "Fists of Fury-Rites of Death",
+      "Issue #": 25,
+      "Date": "Feburary",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Frankenstein Monster",
+      "Title": "Phoenix Aflame!",
+      "Issue #": 17,
+      "Date": "July",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Tomb of Dracula",
+      "Title": "Snowbound in Hell!",
+      "Issue #": 19,
+      "Date": "April",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Deathlok The Demolisher!",
+      "Title": "Death-Machine for Hire!",
+      "Issue #": 26,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Journey into Mystery ",
+      "Title": "Attack of the Abominable Snowman!",
+      "Issue #": 13,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Morbius The Living Vampire",
+      "Title": "A Stillborn Genesis!",
+      "Issue #": 26,
+      "Date": "Feburary",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Son of Satan",
+      "Title": "Madhouse",
+      "Issue #": 18,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Journey into Mystery ",
+      "Title": "The Kiss of the Undead",
+      "Issue #": 12,
+      "Date": "August",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Tomb of Dracula",
+      "Title": "A Vampire Stalks the Night!",
+      "Issue #": 26,
+      "Date": "November ",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "War is Hell",
+      "Title": "Trapped Platoon!",
+      "Issue #": 5,
+      "Date": "September",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Giant-Size Werewolf",
+      "Title": "The Monster of Frankenstein!",
+      "Issue #": 2,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "SGT. Fury and his Howling Commandos",
+      "Title": "The Blitz Squad Strikes",
+      "Issue #": 112,
+      "Date": "October",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Supernatural Thrillers",
+      "Title": "The Living Mummy",
+      "Issue #": 7,
+      "Date": "June",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Tomb of Darkness",
+      "Title": "Spawn of the Witch Woman",
+      "Issue #": 11,
+      "Date": "November",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Ka-Zar",
+      "Title": "The Volcano of Molten Death",
+      "Issue #": 8,
+      "Date": "March",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Man-Thing ",
+      "Title": "Dance to the Murder!",
+      "Issue #": 11,
+      "Date": "November ",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Frankenstein Monster",
+      "Title": "It was Dracula",
+      "Issue #": 9,
+      "Date": "March",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Frankenstein Monster",
+      "Title": "Carnage at Castle Frankenstein",
+      "Issue #": 11,
+      "Date": "July",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "The Tomb of Dracula",
+      "Title": "Gorna Lord of the Living Lightning",
+      "Issue #": 22,
+      "Date": "July",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    },
+    {
+      "Name": "Vault of Evil",
+      "Title": "Don't Shake Hands with the Devil",
+      "Issue #": 15,
+      "Date": "November ",
+      "Year": null,
+      "# of Issues": 1,
+      "Price": ""
+    }
+   ]

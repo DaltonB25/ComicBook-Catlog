@@ -26,14 +26,14 @@ const ComicsList = () => {
 
         <>
             {
-                comics.length > 1 &&
+                comics.length > 0 &&
 
                 <>
                     {comics.map((comic) => {
                         return (
                             <div>
-
                             <h3>{comic.title}</h3>
+                            <Link to={`/book-details/${comic.id}`}>See book details</Link>
 
                             </div>
                         )

@@ -79,6 +79,8 @@ code {
   background-image: url("./src/images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 ul#links {
@@ -174,3 +176,137 @@ a {
   height: 50px;
   margin-left: 10px;
 }
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 10%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results div {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.comic-list {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.comic-list-conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.comic-card {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  justify-self: center;
+  border: 2px solid #ccc;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.comic-image img {
+  max-width: 390px;
+  width: auto; 
+  height: 200px; 
+  
+}
+.comic-title {
+
+  text-align: center;
+  margin-bottom: 20px; 
+}
+.comic-btns {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  width: 100%; 
+}
+.comic-btns button,.comic-btns a button {
+  background-color: #007bff; 
+  color: #ffffff; 
+  padding: 8px 16px; 
+  font-size: 16px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  text-decoration: none; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+.comic-btns button:hover,.comic-btns a button:hover {
+  background-color: #5bfac4; 
+  color: black; 
+  border-color: #5bfac4; 
+}
+

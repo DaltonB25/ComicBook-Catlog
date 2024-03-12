@@ -1,8 +1,34 @@
-import React from 'react'
+import { useContext } from "react"
+import { Link } from "react-router-dom"
+import { CollectionContext } from "../context/collections.context"
 
 const ViewCollectionPage = () => {
+
+  const { collections } = useContext(CollectionContext)
+
   return (
-    <div>ViewCollectionPage</div>
+    <div>
+      <h1>Collections List</h1>
+
+      {
+        collections.length > 0 &&
+        <>
+        {
+          collections.map((collection) => {
+            return (
+              <div>
+                {/* {console.log(collection.comics[0].title)} */}
+                <h2>Collection Name: {collection.name}</h2>
+                <h2>Collector: {collection.owner}</h2>
+                <Link to={`/collection-details/${collection.id}`}>See collection details</Link>
+              </div>
+            )
+          })
+        }
+        </>
+      }
+
+    </div>
   )
 }
 
