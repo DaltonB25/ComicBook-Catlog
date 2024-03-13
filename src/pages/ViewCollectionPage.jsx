@@ -7,16 +7,16 @@ const ViewCollectionPage = () => {
   const { collections } = useContext(CollectionContext)
 
   return (
-    <div>
+    <div className="collectionPage">
       <h1>Collections List</h1>
-
+<div className="boxes">
       {
         collections.length > 0 &&
         <>
         {
           collections.map((collection) => {
             return (
-              <div>
+              <div className="collections">
                 {/* {console.log(collection.comics[0].title)} */}
                 <h2>Collection Name: {collection.name}</h2>
                 <h2>Collector: {collection.owner}</h2>
@@ -28,7 +28,7 @@ const ViewCollectionPage = () => {
         </>
       }
 
-    </div>
+    </div></div>
   )
 }
 

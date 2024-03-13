@@ -21,7 +21,7 @@ const SeriesDetail = () => {
     }, [])
  
   return (
-    <div>{seriesId}
+    <div className='seriesDetails'>{seriesId}
 
     {
         series && 

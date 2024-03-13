@@ -22,7 +22,10 @@ const ComicsList = () => {
  
 
   return (
-    <div>ComicsList
+    <div className="searchPage" >
+    <div className='allComics'> 
+    <h1>ComicsList</h1>
+   
 
         <>
             {
@@ -31,11 +34,12 @@ const ComicsList = () => {
                 <>
                     {comics.map((comic) => {
                         return (
-                            <div>
-                            <h3>{comic.title}</h3>
-                            <Link to={`/book-details/${comic.id}`}>See book details</Link>
-
-                            </div>
+                            <div className='comicSeries'>
+                            <div className='comicItem'>
+                             <img src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt="book-image"/> 
+                             <h3>{comic.title}</h3>
+                             <Link to={`/book-details/${comic.id}`}>See book details</Link>  
+                            </div></div>
                         )
                     })}
                 </>
@@ -43,8 +47,10 @@ const ComicsList = () => {
         </>
     
         <a href="http://marvel.com">Data provided by Marvel. © 2024 MARVEL</a>
-    </div>
+    </div></div>
   )
 }
 
 export default ComicsList
+
+{/* <Link to={`/book-details/${comic.id}`}>See book details</Link>  */}

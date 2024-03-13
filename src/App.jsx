@@ -26,7 +26,7 @@ function App() {
         <Route path='/About' element={<AboutPage />} />
         <Route path='/Comics' element={<ComicsPage />} />
         <Route path='/Collection' element={<ViewCollectionPage />} />
-        <Route path='/series-details/:seriesId' element={<SeriesDetail />} />
+        {/* <Route path='/series-details/:seriesId' element={<SeriesDetail />} /> */}
         <Route path='/comics-list/:seriesId' element={<ComicsList />} />
         <Route path='/add-collection' element={<AddCollection />} />
         <Route path='/book-details/:comicId' element={<BookDetails />} />
