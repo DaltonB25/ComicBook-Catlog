@@ -7,6 +7,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh; 
+  width: 100%; 
+  background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+
 }
 
 code {
@@ -23,6 +30,13 @@ code {
   justify-content: space-between;
   background: #352275;
   height: 83px;
+  background-image: url(./images/gif-animations-replace-loading-screen-12.gif);
+  background-color: #352275;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+
   /* padding: 15px 20px; */
 }
 
@@ -37,51 +51,6 @@ code {
   color: white;
 }
 
-/* .sidenav {
-  height: 91vh;
-  width: 200px;
-  z-index: 1;
-  background-image: url("./images/gif-animations-replace-loading-screen-12.gif"), url("./images/pow.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  
-  background-position: top;
-  overflow-x: hidden;
-  margin-top: 0px;
-}
-
-.sidenav-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.sidenav-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-} */
-
-
-/* .Sidebar {
-  margin-top: 66px;
-  width: 250px;
-  transition: width 0.3s ease-in-out;
-  height: 100vh;
-  background-color:#131a35;
-  position: fixed;
-  left: 0;
-  top: 0;
-} */
-
-.page-img {
-  height: 1000px;
-  background-image: url("./src/images/city.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 
 ul#links {
   font-size: 1.3em;
@@ -115,10 +84,17 @@ ul#links li a.active {
 .AboutPage {
   text-align: center; 
   padding: 50px; 
+  height: 50vh;
   margin: 200px;
   overflow: hidden;
   border: 4mm ridge rgba(3, 3, 3, 0.938);
   border-radius: 8px;
+  background-color: #ccc;
+  background-image: url(https://www.icegif.com/wp-content/uploads/2022/03/icegif-1133.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 
 .AboutPage h1 {
@@ -321,21 +297,21 @@ a:hover {
   justify-content: space-evenly;
   padding-left: 200px;
   padding-right: 200px;
-  min-height: 100vh; /* At least the full height of the viewport */
-  width: 100%; /* Full width of the viewport */
-
   
 }
+
 
 .searchPage h1{
 
     color: rgb(255, 255, 255);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    border: 4px solid black;
-    margin-left: 40%;
-    margin-right: 40%;
+    border: 5px solid black;
+    padding: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
     background-color:rgb(0, 255, 13);
     border-radius: 25px;
+
   
 }
 
@@ -355,19 +331,15 @@ color: #f5eeee;
   /* justify-content: center; */
   border: 2px solid black;
   margin: 2%;
-  height: 300px;
-  width: 300px;
+  width: 250px;
   padding: 10px;
   background-color:rgb(230, 230, 230);
-  
-
-
 }
 
 .comicSeries img {
   width: 100%; 
   height: 200px; 
-  object-fit: fill; /* This will cover the area of the container without stretching. Parts of the image may be cropped. */
+  object-fit: fill; 
 }
 
 .comicSeries .comicItem h5 {
@@ -394,37 +366,24 @@ color: #f5eeee;
 .searchPage{
   min-height: 100vh; 
   width: 100%; 
-  background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  
 }
 
 .seriesDetails{
   min-height: 100vh; 
   width: 100%; 
-  background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
+  
 }
 
 .comicsList{
   min-height: 100vh; 
   width: 100%; 
-  background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
 }
 
 .collectionPage{
   min-height: 100vh; 
   width: 100%; 
-  background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
+  
 }
 
 .collectionPage h1{
@@ -449,12 +408,13 @@ color: #f5eeee;
   height: 300px;
   width: 300px;
   padding: 10px;
-  background-color:rgb(230, 230, 230);
+  background-color:rgb(59, 55, 125);
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border: 4px solid black;
 }
 
-.allComics{
-  background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
-}
+
 
 .boxes{
   display:flex;
@@ -465,7 +425,85 @@ color: #f5eeee;
 
 .searchBox{
   color: rgb(255, 255, 255);
+
+
+}
+
+.bookDetails {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  border: 2px solid black;
+  height: 875px; 
+  width: 500px; 
+  padding: 10px;
+  background-color: rgb(98, 81, 154);
+  color: white;
+
+}
+
+
+
+
+.bookDetails img{
+  /* padding-left: 15%; */
+  width: 85%;
+  height: 50%;
+  
+}
+
+
+.bookDetails h1{
+  color:rgb(240, 240, 240);
+  font-size:xx-large;
+  font-weight: bold;
+  
+}
+
+.character{
+  display:inline-block;
+  
+}
+
+.bookDetailsPage{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 55px;
+}
+
+.comicsDetails{
+  display: flex;
+  flex-direction: row; 
+ justify-content: space-around;
+  margin: 2%
+  
+}
+
+.comicsDetails img{
+  width:40%;
+ 
+  
+}
+
+.comicsDetails h3{
+
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+}
+
+.oneComic{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
   padding: 10px;
 
+  border: 1px solid #000;
+  background-color: #694aa3;
 
 }

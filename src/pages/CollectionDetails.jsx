@@ -134,11 +134,11 @@ function CollectionDetails() {
             thisCollection.comics.length > 0 && 
 
             <>
-
+            <div className="comicsDetails">
               {
                 thisCollection.comics.map((comic) => {
                   return (
-                    <div>
+                    <div className="oneComic">
                       <h3>{comic.title}</h3>
                       <img src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt="book-image"/>
                       <Link to={`/book-details/${comic.id}`}>See book details</Link>
@@ -147,7 +147,7 @@ function CollectionDetails() {
                   )
                 })
               }
-            
+            </div>
             
             </>
 
