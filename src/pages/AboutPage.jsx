@@ -16,7 +16,7 @@ const allImages = [
       {
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
         alt: "Linkedin",
-        link: "https://www.linkedin.com/in/juan-cabrera-9208b9116/",
+        link: "https://www.linkedin.com/in/juangcabrera/",
       },
     ],
   },
@@ -34,7 +34,7 @@ const allImages = [
       {
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
         alt: "Linkedin",
-        link: "https://www.linkedin.com/in/dalton-baker-ab46732b7/",
+        link: "https://www.linkedin.com/in/daltonbaker/",
       },
     ],
   }

@@ -1,7 +1,7 @@
 
 
 body {
-  margin: 0;
+   margin: 0; 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -13,6 +13,8 @@ body {
   background-size: contain;
   background-position:top ; 
   background-repeat: repeat;
+  padding-top: 83px; /* Same as the height of your navbar */
+  
 
 }
 
@@ -36,6 +38,9 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
 
   /* padding: 15px 20px; */
 }
@@ -133,8 +138,8 @@ a {
 
 .nameimages-img {
   display: inline-block;
-  width: 100px; 
-  height: 100px;
+  width: 30%; 
+  height: 30%;
   border-radius: 50%; 
   transition: transform 0.3s ease;
 }
@@ -142,9 +147,12 @@ a {
 .nameimages-img-small-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-bottom: 2%;
 }
 
 .nameimages-img-small {
@@ -305,9 +313,25 @@ a:hover {
   flex-flow: row wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 7%;
+  padding-right: 7%;
   
+}
+
+.allComics h1{
+  
+
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 4px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color:rgb(98, 134, 100);
+    border-radius: 25px;
+    padding-left: 7%;
+    padding-right: 7%;
+
+    
 }
 
 
@@ -380,6 +404,7 @@ color: #f5eeee;
 
 
 .searchPage{
+  padding-top: 5%;
   min-height: 100vh; 
   width: 100%; 
   
@@ -395,6 +420,8 @@ color: #f5eeee;
   min-height: 100vh; 
   width: 100%; 
 }
+
+
 
 .collectionPage{
   min-height: 100vh; 
@@ -491,18 +518,19 @@ color: #f5eeee;
 }
 
 .bookDetailsPage{
+
   display: flex;
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  margin-top: 55px;
+  margin-top: 5%;
 }
 
 .comicsDetails{
   display: flex;
   flex-direction: row; 
  justify-content: space-around;
-  margin: 2%
+  margin: 5%
   
 }
 
@@ -593,6 +621,14 @@ color: #f5eeee;
   height: 40%;
 }
 
+
+
+
+
+
+
+
+
 .CollectionDetailsPg h1{
   color: rgb(255, 255, 255);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -601,6 +637,7 @@ color: #f5eeee;
   margin-right: 40%;
   background-color:rgb(98, 134, 100);
   border-radius: 25px;
+
   
   
 }
@@ -627,4 +664,8 @@ color: #f5eeee;
   font-weight: bold;
   color: rgb(255, 255, 255);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.CollectionDetailsPg {
+  padding-top: 5%;
 }
