@@ -7,6 +7,7 @@ const ViewCollectionPage = () => {
   const { collections } = useContext(CollectionContext)
 
   return (
+    
     <div className="collectionPage">
       <h1>Collections List</h1>
 <div className="boxes">

@@ -1,16 +1,15 @@
-import React from "react";
-
-// import JuanImage from "project-2-intilization/project-2-intilization-client/src/images/Juan.webp"
+// import JuanImage from '../images/Juan.png'; // relative path from the current file to the image
 
 const allImages = [
   {
     name: "Juan G. Cabrera",
     mainImage: {
-      url: "https://files.oaiusercontent.com/file-PZamMHw7GoarjRYrkZfSk1zR?se=2024-03-09T20%3A00%3A17Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D2d54ac40-5f5d-4cfb-ab57-20c2a473cabd.webp&sig=0tINIIUAXl%2BO71aHD1c0rEyMfZYzf9tmcnfM%2Bv83R0M%3D",
+      url: "https://res.cloudinary.com/dt8b5pu9l/image/upload/v1710437406/Juan_jt6g2e.png", // using the imported image
+      alt: "Juan G. Cabrera"
     },
     smallImages: [
       {
-        img: "src/images/github-mark.svg",
+        img: "https://icones.pro/wp-content/uploads/2021/06/icone-github-verte.png",
         alt: "GitHub",
         link: "https://github.com/arebac",
       },
@@ -24,11 +23,11 @@ const allImages = [
   {
     name: "Dalton Baker",
     mainImage: {
-      url: "https://files.oaiusercontent.com/file-ITaSDCO1zGjFRbiPv4WSX8oH?se=2024-03-09T20%3A00%3A17Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D122f1421-aa83-408c-84e5-89d5fed506d5.webp&sig=nGZTligxzrjWhOQWwxQeVJli3GJhuy6XABEFcVHee/s%3D"   ,
+      url: "https://res.cloudinary.com/dt8b5pu9l/image/upload/v1710437379/Balton_qd0awa.png",
     },
     smallImages: [
       {
-        img: "src/images/github-mark.svg",
+        img: "https://icones.pro/wp-content/uploads/2021/06/icone-github-verte.png",
         alt: "GitHub",
         link: "https://github.com/DaltonB25",
       },
@@ -94,41 +93,3 @@ function AboutPage() {
 
 export default AboutPage;
 
-// const allImages = [
-//   {
-//     name: "Juan Cabrera",
-//     mainImage: {
-//       url: "project-2-intilization/project-2-intilization-client/src/images/Juan.webp",
-//     },
-//     smallImages: [
-//       {
-//         img: "src/images/project-2-intilization\project-2-intilization-client\src\images\github-mark.svg",
-//         alt: "GitHub",
-//         link: "https://github.com/arebac",
-//       },
-//       {
-//         img: "src/images/linkedin-logo.png",
-//         alt: "LinkedIn",
-//         link: "",
-//       },
-//     ],
-//   },
-// {
-//   name: "Dalton Baker",
-//   mainImage: {
-//     url: "project-2-intilization/project-2-intilization-client/src/images/Balton.webp",
-//   },
-//   smallImages: [
-//     {
-//       img: "src/images/github-mark.svg",
-//       alt: "GitHub",
-//       link: "https://github.com/DaltonB25",
-//     },
-//     {
-//       img: "src/images/linkedin-logo.png",
-//       alt: "LinkedIn",
-//       link: "https://www.linkedin.com/in/dalton-baker-ab46732b7/",
-//     },
-//   ],
-// }
-// ]

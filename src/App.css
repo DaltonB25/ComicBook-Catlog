@@ -10,9 +10,9 @@ body {
   min-height: 100vh; 
   width: 100%; 
   background-image: url('https://wallpapers.com/images/featured/marvel-comic-book-background-0exuprkk5cwj6ail.jpg');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:top ; 
+  background-repeat: repeat;
 
 }
 
@@ -84,22 +84,32 @@ ul#links li a.active {
 .AboutPage {
   text-align: center; 
   padding: 50px; 
+  width: 60%;
   height: 50vh;
-  margin: 200px;
   overflow: hidden;
   border: 4mm ridge rgba(3, 3, 3, 0.938);
   border-radius: 8px;
   background-color: #ccc;
-  background-image: url(https://www.icegif.com/wp-content/uploads/2022/03/icegif-1133.gif);
+  background-image: url(https://pa1.aminoapps.com/7074/198479ad47326823ce383ac1221a740f6450a784r1-320-181_hq.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
   
 }
 
 .AboutPage h1 {
   margin-bottom: 50px; 
   margin-right: 100px ;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .images {
@@ -303,17 +313,21 @@ a:hover {
 
 .searchPage h1{
 
+
+
     color: rgb(255, 255, 255);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    border: 5px solid black;
-    padding: 10px;
-    margin-left: 45%;
-    margin-right: 45%;
-    background-color:rgb(0, 255, 13);
+    border: 4px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color:rgb(98, 134, 100);
     border-radius: 25px;
+  }
+  
+
 
   
-}
+
 
 .searchPage h1 {
 color: #f5eeee;
@@ -326,7 +340,7 @@ color: #f5eeee;
 .comicSeries {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   /* justify-content: center; */
   border: 2px solid black;
@@ -337,9 +351,11 @@ color: #f5eeee;
 }
 
 .comicSeries img {
-  width: 100%; 
+   width:fit-content;  
   height: 200px; 
-  object-fit: fill; 
+  /* justify-self: center; */
+  align-self: center;
+  /* object-fit: fill;  */
 }
 
 .comicSeries .comicItem h5 {
@@ -393,7 +409,7 @@ color: #f5eeee;
   border: 4px solid black;
   margin-left: 40%;
   margin-right: 40%;
-  background-color:rgb(0, 255, 13);
+  background-color:rgb(98, 134, 100);
   border-radius: 25px;
 }
 
@@ -424,8 +440,16 @@ color: #f5eeee;
 }
 
 .searchBox{
-  color: rgb(255, 255, 255);
 
+}
+
+
+
+.searchBox button{
+  color: #fff6f6;
+  font-weight: bold; 
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000000;
+  height: 50px;
 
 }
 
@@ -489,7 +513,7 @@ color: #f5eeee;
 }
 
 .comicsDetails h3{
-
+  width: 85%;
   font-size: larger;
   color: rgb(255, 255, 255);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -500,10 +524,107 @@ color: #f5eeee;
   display: flex;
   flex-direction: column;
   align-content: center;
-  
   padding: 10px;
-
   border: 1px solid #000;
   background-color: #694aa3;
 
+}
+
+.page-img {
+  width: 50%;
+}
+
+.ErrorPage h1{
+  color:#070707;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.AddNewCollections{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #694aa3;
+  border: 2px solid black;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top:40px;
+  padding-bottom:40px;
+  color:#ffffff;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+/* .name{
+  width: 100px;
+} */
+
+.addNewCollectionsInput{
+  display:block;
+  height: 50%;
+  width: 50%;
+  
+}    
+
+.Marvel-Intro{
+  display:flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../src/images/marvel.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  border:10px solid black;
+  width: 40%;
+  height: 40%;
+}
+
+.Miles{
+  background-image: url(../src/images/miles.gif);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 40%;
+}
+
+.CollectionDetailsPg h1{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border: 4px solid black;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color:rgb(98, 134, 100);
+  border-radius: 25px;
+  
+  
+}
+
+.CollectionDetailsPg h3{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border: 4px solid black;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color:rgb(98, 134, 100);
+  border-radius: 25px;
+  
+}
+
+.CollectionDetailsPg h4{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ 
+}
+
+.details p{
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }

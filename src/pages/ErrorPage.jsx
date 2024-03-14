@@ -1,11 +1,11 @@
 // src/pages/ErrorPage.jsx
 
-const imgURL = "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-routing/404.gif";
+const imgURL = "../src/images/spidermanmeme.gif" 
 
 function ErrorPage() {
   return (
-    <div>
-      <h1>404</h1>
+    <div className="ErrorPage">
+       <h1>Error 404</h1>
       <img src={imgURL} alt="404 error gif" className="page-img" />
     </div>
   );

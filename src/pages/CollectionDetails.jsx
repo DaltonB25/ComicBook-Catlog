@@ -79,7 +79,7 @@ function CollectionDetails() {
   }, [collections])
 
   return (
-    <div>
+    <div className="CollectionDetailsPg">
       <h1>Collection Details</h1>
 
     {
@@ -139,7 +139,7 @@ function CollectionDetails() {
                 thisCollection.comics.map((comic) => {
                   return (
                     <div className="oneComic">
-                      <h3>{comic.title}</h3>
+                      <h4>{comic.title}</h4>
                       <img src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt="book-image"/>
                       <Link to={`/book-details/${comic.id}`}>See book details</Link>
                       <button onClick={() => handleRemove(comic.id)}>Remove from collection</button>

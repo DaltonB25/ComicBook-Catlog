@@ -35,29 +35,30 @@ const AddCollection = () => {
     }
 
   return (
-    <div>
-
+    <div className="AddNewCollections">
+        <div className="addNewCollectionsInput">     
         <form onSubmit={handleSubmit}>
-
-            <label>
+        <label style={{ color: '' }}>
                 Name: 
-                <input type="text" name="name" value={newCollection.name} onChange={handleChange} />
+                <input type="text" name="name" value={newCollection.name} onChange={handleChange} style={{ width: '50%', height: '30px' }} />
             </label>
             <label>
                 Owner: 
-                <input type="text" name="owner" value={newCollection.owner} onChange={handleChange}/>
+                <input type="text" name="owner" value={newCollection.owner} onChange={handleChange} style={{ width: '50%', height: '30px'}}/>
             </label>
             <label>
                 Description: 
-                <textarea name="description" value={newCollection.description} onChange={handleChange}/>
+                <textarea name="description" value={newCollection.description} onChange={handleChange} style={{ width: '60%' }}/>
             </label>
 
             <button type="submit">Add New Collection</button>
 
         </form>
+    </div>
+   
 
     </div>
   )
 }
 
-export default AddCollection
+export default AddCollection                                                                                                                                    

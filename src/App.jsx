@@ -13,6 +13,7 @@ import ComicsList from './pages/ComicsList';
 import AddCollection from './pages/AddCollection';
 import BookDetails from './pages/BookDetails';
 import CollectionDetails from './pages/CollectionDetails';
+import ErrorPage from './pages/ErrorPage';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/add-collection' element={<AddCollection />} />
         <Route path='/book-details/:comicId' element={<BookDetails />} />
         <Route path='/collection-details/:collectionId' element={<CollectionDetails />} />
+        <Route path='*' element={<ErrorPage />} />
 
       </Routes>
     </div>

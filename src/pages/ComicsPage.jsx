@@ -25,14 +25,15 @@ const ComicsPage = () => {
 
   return (
     <div className="searchPage" >
-      <h1>Comic Search</h1>
-<div className="searchBox">
+      <h1>Search For Series</h1>
+      <div className="searchBox">
       <form onSubmit={findSeries}> 
         <label>
-          Search for a Series
+
         </label>
-        <input type="text" name="seriesInput" value={seriesInput} onChange={(e) => setSeriesInput(e.target.value)} />
-        <button>Search</button>
+        <div className="search-box-button"> 
+        <input type="text" name="seriesInput" value={seriesInput} onChange={(e) => setSeriesInput(e.target.value)}/> 
+        <button>Search</button></div>
       </form>
 </div>
       {

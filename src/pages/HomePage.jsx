@@ -13,6 +13,10 @@ function HomePage( { comics, setComics} ) {
 
     return (
       <div className="home-page">
+      <div class="Miles">
+      </div>
+      <div className="Marvel-Intro">
+      </div>
         <div className="page-img"></div>
       </div>
     );
