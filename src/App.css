@@ -13,7 +13,7 @@ body {
   background-size: contain;
   background-position:top ; 
   background-repeat: repeat;
-  padding-top: 83px; /* Same as the height of your navbar */
+
   
 
 }
@@ -31,7 +31,7 @@ code {
   display: flex;
   justify-content: space-between;
   background: #352275;
-  height: 83px;
+  height: 7%;
   background-image: url(./images/gif-animations-replace-loading-screen-12.gif);
   background-color: #352275;
   background-position-x: right;
@@ -42,33 +42,38 @@ code {
   width: 100%;
   top: 0;
 
-  /* padding: 15px 20px; */
+
 }
 
 .Navbar li,
 .Navbar a {
   text-align: center;
-  list-style: none;
   text-decoration: none;
   display: inline-block;
-  margin: 25px 10px;
+  padding-right: 1.2%;
   font-size: 1.4rem;
   color: white;
 }
 
+.navContent{
+  
+  width:65%;
+  
+}
+
 
 ul#links {
-  font-size: 1.3em;
+font-size: 1.3em;
   font-weight: 700;
-  margin: 0 0 5px;
-  padding: 0;
-  text-align: right;
+  text-align: left;
+  
+
 }
 
 ul#links li {
   display: inline;
   list-style: none;
-  padding-left: 1px;
+  padding-left: 0%;
 }
 
 ul#links li a {
@@ -84,16 +89,22 @@ ul#links li a:hover {
 
 ul#links li a.active {
   color: #f6f200;
+  transform: translateY(4px);
+  text-shadow: 0 0 8px #fff;
+  transform: translateY(4px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+
+
 
 .AboutPage {
   text-align: center; 
-  padding: 50px; 
+  padding: 1%; 
   width: 60%;
   height: 50vh;
   overflow: hidden;
   border: 4mm ridge rgba(3, 3, 3, 0.938);
-  border-radius: 8px;
+  border-radius: 1%;
   background-color: #ccc;
   background-image: url(https://pa1.aminoapps.com/7074/198479ad47326823ce383ac1221a740f6450a784r1-320-181_hq.gif);
   background-repeat: no-repeat;
@@ -106,13 +117,10 @@ ul#links li a.active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-  
 }
 
 .AboutPage h1 {
-  margin-bottom: 50px; 
-  margin-right: 100px ;
+  margin-bottom: 1%; 
   color: rgb(255, 255, 255);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -122,13 +130,13 @@ ul#links li a.active {
   display: flex; 
   justify-content: space-around; 
   flex-wrap: nowrap; 
-  gap: 10px;
+  gap: 1%;
   
 }
 
 .person-name {
   text-align: center;
-  margin-top: 5px; 
+  margin-top: 1%; 
 }
 
 a {
@@ -138,38 +146,43 @@ a {
 
 .nameimages-img {
   display: inline-block;
-  width: 30%; 
+  width: 35%; 
   height: 30%;
   border-radius: 50%; 
   transition: transform 0.3s ease;
 }
 
+.nameimages-img-small-container a{
+
+
+  width: 15%;
+  margin-top: 1%;
+  padding:2%;
+}
+
 .nameimages-img-small-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 2%;
-  margin-left: 30%;
-  margin-right:30%;
-  margin-bottom: 2%;
+  justify-content: center;
+
 }
 
-.nameimages-img-small {
+
+.nameimages-img-small a{
   display: flex;
-  width: 50px;
+  width:10%;
   height: auto;
   transition: transform 0.3s ease;
+
+
 }
 
 .nameimages-img-small:hover {
   transform: scale(1.1);
 }
 
-.small-image-1 {
-  height: 50px;
-  margin-left: 10px;
-}
+
+
 
 body {
   font-family: 'Arial', sans-serif;
@@ -177,12 +190,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-}
+} */
 
 h1 {
   color: #333;
@@ -466,10 +479,10 @@ color: #f5eeee;
 
 }
 
-.searchBox{
-
+.person-container{
+  width: 100%;
+ 
 }
-
 
 
 .searchBox button{
